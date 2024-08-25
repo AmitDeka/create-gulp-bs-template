@@ -1,0 +1,40 @@
+{
+  "name": "create-gulp-bs-template",
+  "version": "1.0.1",
+  "description": "Get a head start on your next web project with this HTML and Bootstrap starter template. Includes SCSS for easy styling and Browser-Sync for live reloading. Everything you need to build a modern, responsive website.",
+  "main": "",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp",
+    "prodm": "cross-env NODE_ENV=prodm gulp"
+  },
+  "author": "Amit Deka <amitdeka49@gmail.com>",
+  "license": "MIT",
+  "browserslist": [
+    "> 0.1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "browser-sync": "^3.0.2",
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "1.77.6"
+  }
+}

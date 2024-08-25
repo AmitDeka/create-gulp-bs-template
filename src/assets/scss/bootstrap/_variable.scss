@@ -1,0 +1,56 @@
+// Add Custom Theme name
+$variable-prefix: gbs- !default;
+
+$primary: #e11d48 !default;
+$secondary: #f4f4f5 !default;
+$accent: #55e49d;
+
+$success: #2fab73 !default;
+$info: #22d3ee !default;
+$warning: #fea250 !default;
+$danger: #f25042 !default;
+
+$light: #f8fdf5 !default;
+$dark: #091604 !default;
+$paragraph: #3a4536 !default; // 20% of $Dark
+
+// Font weight
+$font-weight-normal: 400 !default;
+$font-weight-semibold: 500 !default;
+$font-weight-bold: 700 !default;
+
+// Font family
+$font-family-sans-serif: "Rubik", sans-serif !default;
+
+// Enable negative margin
+$enable-negative-margins: true;
+
+// Enable gradient
+$enable-gradient: true;
+
+// Body
+$body-bg: $light !default;
+$body-color: $paragraph !default;
+
+// font size
+$font-size-base: 1rem !default;
+$h6-font-size: $font-size-base * 1.25 !default;
+$h5-font-size: $h6-font-size * 1.25 !default;
+$h4-font-size: $h5-font-size * 1.25 !default;
+$h3-font-size: $h4-font-size * 1.25 !default;
+$h2-font-size: $h3-font-size * 1.25 !default;
+$h1-font-size: $h2-font-size * 1.25 !default;
+
+$font-size-xl: $h6-font-size * 1.33 !default;
+$font-size-xxl: $font-size-xl * 1.33 !default;
+
+// Headings
+$headings-color: $dark !default;
+
+// Navbar
+$navbar-light-color: rgba($light, 0.75);
+$navbar-light-hover-color: rgba($light, 0.9);
+$navbar-light-active-color: rgba($light, 1);
+$navbar-light-toggler-border-color: transparent !default;
+$navbar-toggler-focus-width: 0px !default;
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$light}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
