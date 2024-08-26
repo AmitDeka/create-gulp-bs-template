@@ -1,6 +1,6 @@
 {
   "name": "create-gulp-bs-template",
-  "version": "1.26.824",
+  "version": "1.27.824",
   "description": "Get a head start on your next web project with this HTML and Bootstrap starter template. Includes SCSS for easy styling and Browser-Sync for live reloading. Everything you need to build a modern, responsive website.",
   "main": "./dist/index.html",
   "bin": {
