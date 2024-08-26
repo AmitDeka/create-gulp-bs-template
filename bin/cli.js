@@ -11,23 +11,33 @@ const runCommand = (command) => {
   }
   return true;
 };
+
+// Check if the project name is provided
 const repoName = process.argv[2];
+if (!repoName) {
+  console.error("Please provide a project name:");
+  console.error("  Example: npx create-gulp-bs-template my-project");
+  process.exit(-1);
+}
+
 const cwd = process.cwd();
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/AmitDeka/create-gulp-bs-template ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log("\n");
-console.log(`Creating a new Bootstrap + Gulp project in ${cwd}`);
+console.log(`Creating a new Bootstrap + Gulp project in ${cwd}/${repoName}`);
 console.log("\n");
 const chechedOut = runCommand(gitCheckoutCommand);
 if (!chechedOut) process.exit(-1);
+
 console.log("\n");
-console.log(`Installing npm dependencies in ${cwd}`);
+console.log(`Installing npm dependencies in ${repoName}`);
 const installDeps = runCommand(installDepsCommand);
 if (!installDeps) process.exit(-1);
+
 console.log("\n");
 console.log(
-  `Congratulations! Your new Bootstrap + Gulp project is ready in ${cwd}`
+  `Congratulations! Your new Bootstrap + Gulp project is ready in ${repoName}`
 );
 console.log("Inside the project directory, you can run several commands:");
 console.log("\n");

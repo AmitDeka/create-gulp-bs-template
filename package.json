@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "Get a head start on your next web project with this HTML and Bootstrap starter template. Includes SCSS for easy styling and Browser-Sync for live reloading. Everything you need to build a modern, responsive website.",
   "main": "./dist/index.html",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "create-gulp-bs-template": "bin/cli.js"
+  },
   "scripts": {
     "start": "gulp",
     "dev": "gulp serve",
