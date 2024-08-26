@@ -21,10 +21,6 @@ main {
   min-height: calc(100vh - 100px);
 }
 
-nav.navbar ul.navbar-nav li.nav-item a.nav-link.active {
-  background-color: #e11d48;
-}
-
 #heroSection {
   min-height: 90vh;
 }
