@@ -2,7 +2,8 @@
   "name": "create-gulp-bs-template",
   "version": "1.0.1",
   "description": "Get a head start on your next web project with this HTML and Bootstrap starter template. Includes SCSS for easy styling and Browser-Sync for live reloading. Everything you need to build a modern, responsive website.",
-  "main": "",
+  "main": "./dist/index.html",
+  "bin": "./bin/cli.js",
   "scripts": {
     "start": "gulp",
     "dev": "gulp serve",
@@ -14,6 +15,16 @@
   "browserslist": [
     "> 0.1%",
     "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitDeka/create-gulp-bs-template.git"
+  },
+  "keywords": [
+    "html",
+    "bootstrap",
+    "gulp",
+    "browser-sync"
   ],
   "devDependencies": {
     "bootstrap": "^5.2.3",
