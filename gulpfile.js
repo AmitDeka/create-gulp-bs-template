@@ -77,11 +77,7 @@ function css() {
         includePaths: ["node_modules"],
       }).on("error", sass.logError)
     )
-    .pipe(
-      autoprefixer(["> 0.01%", "not dead"], {
-        cascade: true,
-      })
-    )
+    .pipe(autoprefixer())
     .pipe(gulpIf(isProd, beautify.css(beautifyOptions)))
     .pipe(
       gulpIf(

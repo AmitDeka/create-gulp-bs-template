@@ -1,5 +1,8 @@
 # Create Gulp Bootstrap Template
 
+![GitHub License](https://img.shields.io/github/license/AmitDeka/create-gulp-bs-template?style=flat-square)
+![NPM Downloads](https://img.shields.io/npm/dm/create-gulp-bs-template?style=flat-square)
+
 This project is a Bootstrap 5 starter template integrated with Gulp for an efficient development workflow. It includes SCSS support for easy styling, BrowserSync for live reloading, and Gulp tasks for building and optimizing your website.
 
 ### Features
